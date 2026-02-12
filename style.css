@@ -18,6 +18,41 @@ section {
     align-items: center;
 }
 
+/* ===================== */
+/* RESPONSIVO MOBILE */
+/* ===================== */
+
+@media (max-width: 768px) {
+
+    .intro-content h1 {
+        font-size: 22px;
+        padding: 0 20px;
+    }
+
+    .message {
+        max-width: 90%;
+        padding: 25px;
+    }
+
+    .message h1 {
+        font-size: 22px;
+    }
+
+    .message p {
+        font-size: 16px;
+    }
+
+    .photo {
+        width: 110px;
+    }
+
+    .photo.active {
+        transform: translate(-50%, -50%) scale(2.5) rotate(0deg) !important;
+    }
+
+}
+
+
 /* ================= INTRO ================= */
 
 #intro-page {
@@ -190,5 +225,6 @@ section {
     opacity: 1;
     pointer-events: all;
 }
+
 
 
